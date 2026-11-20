@@ -1,0 +1,6 @@
+question,A,B,C,D,correct,seconds
+Which OOP principle hides a class's internal data behind methods?,Encapsulation,Polymorphism,Inheritance,Recursion,A,20
+What is it called when a subclass replaces a method from its parent class?,Overloading,Overriding,Hiding,Casting,B,20
+"Which statement about a Java interface is true?","It cannot declare methods","A class can implement many interfaces","It must extend Object directly","It can only hold private fields",B,25
+Which keyword prevents a class from being subclassed?,static,abstract,final,private,C,15
+"What does this print: System.out.println(""a"" + 1 + 2);",a3,a12,3a,Compilation error,B,20

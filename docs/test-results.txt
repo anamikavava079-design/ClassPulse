@@ -1,0 +1,44 @@
+--- Unit tests ---
+PASS  score calculation and streaks
+PASS  password hashing
+PASS  email and password rules
+PASS  CSV quiz import
+PASS  sample CSV file
+PASS  CSV export safety
+PASS  question validation
+PASS  protocol round trip
+PASS  protocol rejects unsafe data
+PASS  MIME email format
+PASS  SMTP client talks to a mail server
+PASS  SMTP client reports a rejected password
+PASS  badges and student statistics
+PASS  shuffled quiz keeps questions and ids together
+PASS  certificate rule and image
+PASS  QR code reads back: format, error correction, text
+PASS  phone page JSON is escaped safely
+--- Integration tests (real sockets and real MySQL) ---
+PASS  register needs a verified email
+PASS  wrong codes are limited
+PASS  domains with no mail server are refused
+PASS  duplicate username and email
+PASS  sign in with username or email
+PASS  reset code only goes to registered emails
+PASS  change password and profile
+PASS  permissions
+PASS  edit, duplicate and delete quizzes
+PASS  SQL injection is harmless
+PASS  whole game, disconnect, report
+PASS  signed-in student: history, badges, result email
+PASS  report email with CSV attachment
+PASS  teacher overview numbers
+PASS  teacher removes a student from the lobby
+PASS  server timer ends a question
+PASS  teacher disconnect closes room
+PASS  50 students at the same time
+PASS  garbage bytes do not stop the server
+PASS  repeated wrong passwords disconnect
+PASS  the winner's result email has a certificate
+PASS  classes and homework: emails, one try, reminder, summary
+PASS  phone players join and answer over HTTP
+
+40 passed, 0 failed
